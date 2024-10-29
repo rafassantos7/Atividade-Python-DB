@@ -1,0 +1,27 @@
+# Atividade
+
+### Objetivo:
+Criar um CRUD para um usuário:
+- Create (criar usuário)
+- Read (listar todos os usuários / pesquisar um usuário)
+- Update (Atualizar os dados do usuário)
+- Delete (excluir um usuário)
+
+No arquivo principal, crie um menu onde seja possivel escolher a opção desejada
+```
+    === SISTEMA ===
+1 - Adicionar usuário
+2 - Pesquisar um usuário
+3 - Atualizar dados de um usuário
+4 - Excluir um usuário
+5 - Exibir todos os usuários cadastrados
+0 - Sair
+Informe a opção desejada:
+```
+
+Os dados precisam ser salvos no banco de dados.
+
+### Tecnologias:
+- ORM = SQLalchemy
+- Banco de dados: MySQL
+- Orquestração de contêineres: Docker Compose
